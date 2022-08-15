@@ -1,0 +1,164 @@
+body {
+	background: #ddd;
+	min-width: 300px;
+}
+
+
+.fondo__img {
+	width: 98vw;
+	height: 98vh;
+	position: absolute;
+	opacity: 50%;
+
+}
+
+.container1 {
+	max-width: 1300px;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-rows: 250px 250px 250px;
+	grid-gap: 5px;
+	color: #eee;
+	font-size: 80px;
+	text-align: center;
+	line-height: 250px;
+	margin-top: 50px;
+	margin-left: 5%;
+}
+
+.iconos__azul {
+background: #48e;
+object-fit: cover;
+cursor: pointer;
+
+}
+
+.iconos__azul:hover {
+background: #6da2f2;
+}
+
+.container2 {
+	width: 98VW;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: #eee;
+	font-size: 30px;
+	text-align: center;
+	background: #070;
+	position: relative;
+
+
+}
+
+.iconos__verde {
+	background: #070;
+	width: auto;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	cursor: pointer;
+	padding-right: 20px;
+	padding-left: 20px;
+
+
+}
+
+.iconos__verde:hover {
+	background: #009f00;
+	
+}
+
+.iconosp {
+	display: none;
+}
+
+@media only screen and ( max-width: 960px) {
+
+
+.iconos__verde {
+ font-size: 25px;
+}
+
+}
+
+
+@media only screen and ( max-width: 905px) {
+
+
+.iconos__verde {
+ font-size: 20px;
+}
+
+}
+
+@media only screen and ( max-width: 620px) {
+
+
+.iconos__verde {
+ font-size: 17px;
+}
+
+}
+
+@media only screen and ( max-width: 580px) {
+
+.iconos__verde{
+	display: none;
+}
+
+.iconosp {
+	background: #070;
+	width: auto;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	cursor: pointer;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+.iconosp:hover {
+	background: #009f00;	
+}
+
+}
+
+@media only screen and ( max-width: 430px) {
+
+
+.container1 {
+	max-width: 1000px;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-rows: 200px 200px 200px;
+	grid-gap: 5px;
+	color: #eee;
+	font-size: 70px;
+	text-align: center;
+	line-height: 200px;
+	margin-top: 30px;
+	margin-left: 5%;
+}
+
+.iconos__azul {
+background: #48e;
+object-fit: cover;
+cursor: pointer;
+
+}
+
+.iconos__azul:hover {
+background: #6da2f2;
+}
+
+}
